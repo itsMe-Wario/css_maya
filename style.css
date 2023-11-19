@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Google Fonts for better fonts */
+    background-color:  #F1F1F1; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Blue header background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif; /* Different font for the header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555; /* Dark gray text color */
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; /* Different font for the navigation links */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #ECECEC; /* Light gray section background */
+    border: 1px solid #ddd; /* Light gray border */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.lesgo {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.lesgo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #3498db; /* Blue heading color */
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif; /* Different font for headings */
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #222; /* Dark background for the footer */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Different font for the footer text */
+}
+
+
